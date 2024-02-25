@@ -1,0 +1,33 @@
+@import "../../index.scss";
+
+.form {
+  &-group {
+    @include flex-column-skretch;
+    gap: 16px;
+
+    &--inputs {
+      gap: 12px;
+    }
+
+    &__names {
+      display: flex;
+      flex-direction: row;
+      gap: 12px;
+    }
+  }
+}
+
+.post {
+  &-group {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+
+    &--buttons {
+      display: flex;
+      justify-content: flex-end;
+      gap: 12px;
+    }
+  }
+}
